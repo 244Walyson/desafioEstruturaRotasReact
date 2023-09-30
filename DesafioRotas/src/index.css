@@ -23,3 +23,12 @@ a{
   text-decoration: none;
   color: unset;
 }
+
+.standar-text{
+    margin-top: 20px;
+}
+
+.standar-text h1{
+    font-size: 24px;
+    font-weight: 700;
+}

@@ -1,9 +1,11 @@
-import React from 'react'
-import HomeContent from '../../components/HomeContent'
 
 const HomeBody = () => {
   return (
-    <HomeContent></HomeContent>
+    <div className="container">
+        <div className="standar-text">
+            <h1>Bem-vindos!</h1>
+        </div>
+    </div>
   )
 }
 

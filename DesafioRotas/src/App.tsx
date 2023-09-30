@@ -4,6 +4,7 @@ import Home from './routes/Home'
 import HomeBody from './routes/HomeBody'
 import Products from './routes/Products'
 import AboutUs from './routes/AboutUs'
+import NotFound from './routes/NotFound'
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
               <Route path='/products:categoryName'></Route>
             </Route>
             <Route path='/about' element={<AboutUs></AboutUs>}></Route>
+            <Route path='*' element={<NotFound></NotFound>}></Route>
           </Route>
         </Routes>
       </BrowserRouter>

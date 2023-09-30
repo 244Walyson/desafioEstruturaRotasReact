@@ -106,16 +106,16 @@ const products: product[] = [
 export function findAll(): product[]{
     return products
 }
-export function findByCategory(route: string): Product[] {
-    return products.filter((product: Product) => {
-        return product.category.some((cat: Category) => cat.route === route);
+export function findByCategory(route: string): product[] {
+    return products.filter((product: product) => {
+        return product.category.some((cat) => cat.route === route);
     });
 }
-export function findAllCategories(): Category[] {
-    let categories: Category[] = [];
+export function findAllCategories(): category[] {
+    const categories: category[] = [];
 
-    products.forEach((product: Product) => {
-        product.category.forEach((cat: Category) => {
+    products.forEach((product: product) => {
+        product.category.forEach((cat: category) => {
             const existingCategory = categories.find((c) => c.id === cat.id);
 
             if (!existingCategory) {

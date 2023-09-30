@@ -1,8 +1,11 @@
-import React from 'react'
-
+import './styles.css'
 const Header = () => {
   return (
-    <div>MeuSite</div>
+    <header className='header-nav'>
+        <div className='container'>
+            <h1>MeuSite</h1>
+        </div>
+    </header>
   )
 }
 

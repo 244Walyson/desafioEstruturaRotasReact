@@ -1,8 +1,10 @@
-import React from 'react'
-
+import { Link } from "react-router-dom"
+import "./styles.css"
 const HomeBody = () => {
   return (
-    <main>Pagina inicial</main>
+    <main>
+        <Link to={"/promotions"}><button>Ver Promoções</button></Link>
+    </main>
   )
 }
 

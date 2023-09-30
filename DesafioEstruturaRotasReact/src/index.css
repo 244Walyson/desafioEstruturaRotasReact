@@ -1,5 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+:root{
+  --ms-bg-color-primary: #fff;
+  --ms-bg-color-secondary: #ff2323;
+  --ms-bg-color-tertiary: #dadada;
+
+  --ms-font-color-primary: #6f6f6f;
+  --ms-font-color-secondary: #fff;
+}
+.container{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
 }

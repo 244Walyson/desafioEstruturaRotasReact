@@ -1,0 +1,16 @@
+.product-card{
+    background-color: var(--bg-color-tertiary);
+    height: 60px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.strong-color{
+    color: var(--font-color-secondary);
+    font-weight: 700;
+}
+
+.product-card a{
+    margin-left: 20px;
+}
